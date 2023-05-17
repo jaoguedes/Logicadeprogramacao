@@ -123,3 +123,6 @@ Escreva um programa que converta uma frase digitada pelo usuário para o formato
 
 ### 25)  
 Escreva um programa que recebe 3 números e os apresente em ordem crescente.
+
+## ABRA POR AQUI:
+https://jaoguedes.github.io/Logicadeprogramacao/
