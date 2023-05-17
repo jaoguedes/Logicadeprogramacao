@@ -1,5 +1,7 @@
 # Logica de programação
 
+
+# Para vizualizar os resultados de cada botão abra o console usando botão direito na pagina ou clicando fn e f12 ao msm tempo.
 ### 1)    
 Escreva um programa que exiba os números de 1 a
 10 utilizando um laço "for".
