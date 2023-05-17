@@ -1,0 +1,126 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;600;900&display=swap');
+
+  * {
+    margin: 0;
+    padding: 0;
+    border: 0;
+
+  }
+
+  body {
+    background-color: #141414;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+
+  #atividades {
+    display: flex;
+    flex-wrap: wrap;
+    width: 65%;
+    justify-content: center;
+    margin-top: 30px;
+  }
+
+  .at {
+    background: linear-gradient(139deg, rgba(159,44,201,1) 35%, rgba(128,0,180,1) 100%);
+    width: 200px;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 7px;
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
+
+  h1 {
+    font-family: 'Poppins', sans-serif;
+    font-size: 100px;
+    position: absolute;
+    height: 30px;
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    color: rgba(255, 255, 255, 0.2);
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(180deg, rgba(105,22,136,0.5226423333005077) 35%, rgba(128,0,180,0) 100%);
+    height: 100px;
+    width: 100%;
+    padding: 35px 0;
+  }
+
+  h3 {
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    letter-spacing: 1.3px;
+
+
+    font-size: 24px;
+
+  }
+  h4 {
+    font-family: 'Poppins', sans-serif;
+    color: aliceblue;
+    letter-spacing: 1.3px;
+
+font-weight: lighter;
+    font-size: 24px;
+  }
+
+  .btnDez {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    padding: 30px;
+    background-color: indigo;
+    color: white;
+    z-index: 9999;
+    position: relative;
+    box-shadow: 0px 0px 100px rgb(117, 69, 118);
+  }
+
+  .btnDez:hover {
+    background-color: aliceblue;
+    color: indigo;
+  }
+
+  footer {
+    margin-top: auto;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 900;
+    color: rgb(238, 214, 255);
+    width: 100%;
+    letter-spacing: 1px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(86, 0, 81);
+  }
+  
+  @media (max-width: 768px) {
+    h3 {
+      font-size: 18px;
+    }
+    h4 {
+      font-size: 16px;
+      width: 90%;
+    }
+  }
